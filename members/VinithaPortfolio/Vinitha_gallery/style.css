@@ -1,0 +1,84 @@
+.box {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 33%;
+    height: 50%;
+    padding: 5px;
+    transition: 1s ease;
+    backface-visibility: hidden;
+  }
+  .images:hover{
+    filter: grayscale();
+    transform: scale(1.1);
+
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    
+  }
+  
+  
+  .box:hover .image {
+    opacity: 0.3;
+  }
+  
+  .box:hover .middle {
+    opacity: 1;
+  }
+  
+  
+  .buttonclick {
+      
+    color:373636;
+    font-size: 16px;
+    padding: 16px 16px;
+    border: 2px solid #373636;
+    text-align: center;
+    
+  }
+  
+  .button{
+    border: 2px solid #373636;
+    color: #373636
+    ;
+  }
+  .buttonclick .button{
+    width:70px;
+    height:42px;
+    border-radius:10px;
+    font-family:calibri;
+    font-weight:bold;
+    font-size: 14px;
+    outline:none;
+    margin:0px 10px;
+    
+  }
+  input[type=button] {
+    border: 2px solid #373636;
+    color: #373636
+    ;
+  }
+  input[type=button] {
+    width:70px;
+    height:42px;
+    border-radius:10px;
+    font-family:calibri;
+    font-weight:bold;
+    font-size: 14px;
+    outline:none;
+    margin:0px 10px;
+  }
